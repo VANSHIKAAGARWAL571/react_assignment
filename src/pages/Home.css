@@ -1,0 +1,104 @@
+/* Home.css */
+
+/* ... (your existing styles) */
+
+/* Home.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.home-container {
+  max-width: 800px;
+  margin: 60px auto 0;
+  padding: 20px;
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.overlay-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value for transparency */
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.overlay-card h1 {
+  margin: 0;
+  color: white;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card h3 {
+  margin: 10px 0;
+}
+
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-address {
+  max-width: 300px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
